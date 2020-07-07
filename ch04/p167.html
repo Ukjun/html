@@ -1,0 +1,75 @@
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>
+
+        </title>
+    </head>
+    <style>
+        .container { width: 600px; margin: 50 auto;}
+        legend{font-weight: bold;color: indianred;}
+        ul {list-style-type: none;}
+        label { float : left;width : 150px; text-align: right; padding-right: 10px;}
+        .btn{text-align: center;}
+    </style>
+    <body>
+        <div id="container">
+        <h1>상품 주문서</h1>
+        <form>
+            <fieldset>
+                <legend>개인정보</legend>
+            <ul>
+                <li >
+                    <label for="name">이름</label> 
+                    <input type="text" id="text" autofocus required><br>
+                </li>
+                <li>
+                    <label for="tel">연락처</label> 
+                    <input type="text" id="tel"><br>
+                </li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>배송지 정보</legend>
+        <ul>
+            <li>
+                <label for="add">주소</label> 
+                <input type="text" id="add"><br>
+            </li>
+            <li>
+                <label for="tel">전화번호</label> 
+                <input type="text" id="tel"><br>
+            </li><li>
+                <label for="memo">메모</label> 
+                <textarea cols="50" rows="3"></textarea><br>
+            </li>
+        </ul>
+    </fieldset>
+    <fieldset>
+        <legend>배송지 정보</legend>
+    <ul>
+        <li>
+            <label for="this1"></label><input type="checkbox" id="this1">과테말라 안티구아(100g)
+            <input type="text" size="1" minlength="0" maxlength="100">개 
+            <br>
+        </li>
+        <li>
+            <label for="this2"></label><input type="checkbox" id="this2">인도네시아 만델링(100g) 
+                <input type="text" size="1" minlength="0" maxlength="100">개
+            <br>
+        </li><li>
+            <label for="this3"></label><input type="checkbox" id="this3">탐라는도다(블랜딩)(100g) 
+                <input type="text" size="1" minlength="0" maxlength="100">개
+            <br>
+        </li> 
+    </ul>
+        </fieldset>
+        </form>
+        <div class="btn">
+            <input type="submit" value="주문하기">
+            <input type="reset" value="다시작성">
+        </div>
+    </div>
+    </body>
+
+</html>

@@ -1,0 +1,41 @@
+.container{
+    width: 800px;
+    padding: 20px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+}
+header{
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    background-color: #005599;
+    color: white;
+}
+header h1{
+    float: left;
+    width: 30%;
+    margin-right: auto;
+}
+header ul li{
+    display: inline-block;
+    width: 15%;
+}
+header ul li a{
+    color: white;
+    text-decoration: none;
+}
+section article{
+    border: 2px dotted #ffccff;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+footer{
+    background-color: darkgray;
+    height: 50px;
+    padding: 10px;
+}
+footer p{
+    color: white;
+    font-size: 0.8em;
+    text-align: center;
+}

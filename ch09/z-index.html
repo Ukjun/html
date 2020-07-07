@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<style>
+    div#wrapper{
+        position: relative;
+    }
+    .box1{
+        position: relative;
+        width: 50px;
+        height: 50px;
+        border: 1px solid black;
+        float: left;
+    }
+    #b1{
+        z-index: 1;
+        background-color: red;
+        
+    }
+    #b2{
+        z-index: 3;
+        background-color: green;
+        top: 10px;
+        left: -20px;
+    }
+    #b3{
+        z-index: 2;
+        background-color: blue;
+        top: 40px;
+        left: -90px;
+    }
+</style>
+<body>
+    <div id="wrapper">
+        <div class="box1" id ="b1">1</div>
+        <div class="box1" id ="b2">2</div>
+        <div class="box1" id ="b3">3</div>
+    </div>
+</body>
+</html>
