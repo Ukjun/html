@@ -46,6 +46,39 @@ nav ul li a{
     text-decoration: none;
 }
 nav ul li a:hover{
-    color: mediumaquamarine;
-    
+    color: mediumaquamarine;   
+}
+.content{
+    width: 720px;
+    padding: 10px;
+    float: left;
+}
+.content p,.sidebar p{
+    text-align: justify;
+}
+.sidebar{
+    width: 200px;
+    padding: 10px;
+    float: right;
+    background: rgba(50, 200, 50, 0.2);
+    margin: 10px 0;
+}
+.sidebar img{
+    border: rgb(50, 200, 50);
+    margin-bottom: 10px;
+}
+footer{
+    width: 960px;
+    height: 150px;
+    background-color: rgb(30, 30, 30);
+    clear : both;
+    text-align: center;
+}
+footer p{
+    color: white;
+    padding-top: 20px;
+    line-height: 5px;
+}
+footer .bottom{
+    margin-top: 20px;
 }
